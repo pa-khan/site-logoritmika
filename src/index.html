@@ -7,7 +7,7 @@
 	<link rel="shortcut icon" href="upload/favicon.png" type="image/png">
 	<link rel="stylesheet" href="template/styles/css/style.css" />
 	<link rel="stylesheet" href="template/styles/css/responsive.css" />
-	<script src="template/scripts/libs.min.js"></script>
+	<script src="template/scripts/libs.js"></script>
 	<script src="template/scripts/common.js"></script>
 	<!--[if lt IE 9]>
 	<script>
@@ -23,13 +23,165 @@
 </head>
 <body>
 	<header class="header">
-		
+		<div class="panel">
+			<div class="container row">
+				<div class="panel__logo col"><img src="upload/logo.png" alt=""></div>
+				<div class="panel__nav col">
+					<ul>
+						<li><a href="">О нас</a></li>
+						<li><a href="">Наши проекты</a></li>
+						<li><a href="">Где купить</a></li>
+						<li><a href="">Контакты</a></li>
+					</ul>
+				</div>
+				<div class="panel__contacts col">
+					<div class="panel__email"><i class="icon icon-email"></i><a href="">logoritmika@mail.ru</a></div>
+					<div class="panel__phone"><i class="icon icon-phone"></i><a href="">8(903)662-08-64</a></div>
+				</div>
+			</div>
+		</div>
+		<div class="nav">
+			<div class="container">
+				<ul>
+					<li class="drop-nav">
+						<a href="dropnav">Методики</a>
+						<ul>
+							<li><a href="">Колыбельные</a></li>
+							<li><a href="">Логоритмика</a></li>
+						</ul>
+					</li>
+					<li><a href="">Курсы лекций</a></li>
+					<li><a href="">Пособия</a></li>
+					<li><a href="">Статьи</a></li>
+					<li><a href="">Видео</a></li>
+					<li><a href="">Гостевая книга</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="slider">
+			<div class="slider__item slider__item_orange">
+				<div class="slider__img"><img src="upload/slider/1.png" alt=""></div>
+				<div class="slider__wrap">
+					<div class="slider__title">Логоритмика</div>
+					<div class="slider__text">Система интеллектуального развития младенцев, представленная в комплексе упражнений и музыкальном массаже для детей от 0 до 3 лет</div>
+					<a href="" class="slider__button button button_round">Подробнее</a>
+				</div>
+			</div>
+			<div class="slider__item slider__item_pink">
+				<div class="slider__img"><img src="upload/slider/2.png" alt=""></div>
+				<div class="slider__wrap">
+					<div class="slider__title title">Добрые и светлые колыбельные</div>
+					<div class="slider__text">Все тексты и музыка тщательно подобраны и аранжированы таким образом, что несут уникальный оздоровительный, развивающий и воспитательный эффекты</div>
+					<a href="" class="slider__button button button_round">Подробнее</a>
+				</div>
+			</div>
+		</div>
 	</header>
 	<main class="main">
-		
+		<div class="main-category">
+			<div class="main-category__list row_line container">
+				<a href="" class="main-category__item main-category__item_ col_line">
+					<div class="main-category__icon"><i class="icon icon-lullabies"></i></div>
+					<div class="main-category__text">Колыбельные</div>
+				</a>
+				<a href="" class="main-category__item main-category__item_ col_line">
+					<div class="main-category__icon"><i class="icon icon-logoritmika"></i></div>
+					<div class="main-category__text">Логоритмика</div>
+				</a>
+			</div>
+		</div>
+		<div class="main-about">
+			<div class="container row">
+				<div class="main-about__persona col">
+					<div class="main-about__img"><img src="upload/about/1.png" alt=""></div>
+					<div class="main-about__name">Синицына Ирина Александровна</div>
+				</div>
+				<div class="main-about__content col">
+					<div class="main-about__title title">О нас</div>
+					<div class="main-about__text link">Мы рады приветствовать вас на нашей главной странице, которая и посвящена самому главному: нашим детям — нашему будущему! Нам с вами выпала и огромная радость и большая ответственность — стать родителями, и если мы здесь с вами встретились, то у нас есть счастливая возможность научиться быть хорошими родителями и воспитать достойных детей. Наше время изобилует разными развивающими методиками и пособиями для всестороннего детского развития, но есть ли гарантии, что наши усилия и старания не пропадут даром, а принесут хороший урожай! <a href="">Подробнее</a></div>
+				</div>
+			</div>
+		</div>
+		<div class="main-videos">
+			<div class="container row">
+				<div class="main-videos__title title">Наше видео</div>
+				<div class="main-videos__list row_line">
+					<a href="" class="main-videos__item col_line"><img src="upload/videos/1.png" alt=""></a>
+					<a href="" class="main-videos__item col_line"><img src="upload/videos/2.png" alt=""></a>
+					<a href="" class="main-videos__item col_line"><img src="upload/videos/1.png" alt=""></a>
+					<a href="" class="main-videos__item col_line"><img src="upload/videos/2.png" alt=""></a>
+				</div>
+				<div class="main-videos__link link"><a href="">Посмотреть еще</a></div>
+			</div>
+		</div>
+		<div class="main-types">
+			<div class="container row">
+				<div class="main-types__item col col-2">
+					<div class="main-types__title title col_line">Курсы лекций</div>
+					<div class="main-types__wrap row_line">
+						<div class="main-types__icon col_line"><i class="icon icon-class"></i></div>
+						<div class="main-types__text col_line link">
+							<p>Совместно с родительскими школами «Драгоценность» и «Рождество» нами разработан ипроводится специальный курс научно-практических занятийдля детей от 0 до 9-ти месяцев и беременных.</p>
+							<a href="">Подробнее</a>
+						</div>
+					</div>
+				</div>
+				<div class="main-types__item col col-2">
+					<div class="main-types__title title col_line">Пособия</div>
+					<div class="main-types__wrap row_line">
+						<div class="main-types__icon col_line"><i class="icon icon-books"></i></div>
+						<div class="main-types__text col_line link">
+							<p>Совместно с родительскими школами «Драгоценность» и «Рождество» нами разработан ипроводится специальный курс научно-практических занятийдля детей от 0 до 9-ти месяцев и беременных.</p>
+							<a href="">Подробнее</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="main-articles">
+			<div class="container">
+				<div class="main-articles__title title">Популярные статьи</div>
+				<div class="articles row_line">
+					<div class="articles__list row_line">
+						<div class="articles__item col_line">
+							<div class="articles__img"><img src="upload/articles/1.png" alt=""></div>
+							<div class="articles__subtitle">Логоритмика для малышей</div>
+							<div class="articles__data">Воскресенье, 24 января, 2016 г.</div>
+							<div class="articles__content link">Многочисленные лингвистические и психологические исследования показали, что темпы развития речи в начале жизни человека значительно выше, чем во все последующие. <a href="">Подробнее</a></div>
+						</div>
+						<div class="articles__item col_line">
+							<div class="articles__img"><img src="upload/articles/2.png" alt=""></div>
+							<div class="articles__subtitle">Чем занять малыша…</div>
+							<div class="articles__data">Воскресенье, 24 января, 2016 г.</div>
+							<div class="articles__content link">Многочисленные лингвистические и психологические исследования показали, что темпы развития речи в начале жизни человека значительно выше, чем во все последующие. <a href="">Подробнее</a></div>
+						</div>
+						<div class="articles__item col_line">
+							<div class="articles__img"><img src="upload/articles/3.png" alt=""></div>
+							<div class="articles__subtitle">Чтоб ребенок был здоров</div>
+							<div class="articles__data">Воскресенье, 24 января, 2016 г.</div>
+							<div class="articles__content link">Многочисленные лингвистические и психологические исследования показали, что темпы развития речи в начале жизни человека значительно выше, чем во все последующие. <a href="">Подробнее</a></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</main>
 	<footer class="footer">
-		
+		<div class="container row">
+			<div class="footer__copy col">© 2016 Logoritmika.ru</div>
+			<div class="footer__nav col">
+				<ul>
+					<li><a href="">О нас</a></li>
+					<li><a href="">Наши проекты</a></li>
+					<li><a href="">Где купить</a></li>
+					<li><a href="">Контакты</a></li>
+				</ul>
+			</div>
+			<div class="footer__contacts col">
+				<div class="footer__email"><a href="">logoritmika@mail.ru</a></div>
+				<div class="footer__phone"><a href="">8(903)662-08-64</a></div>
+			</div>
+		</div>
 	</footer>
 </body>
 </html>

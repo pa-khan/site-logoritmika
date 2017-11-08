@@ -43,7 +43,9 @@ gulp.task('browser-sync', function() {
 gulp.task('scripts', function() {
 	return gulp.src([ 
 		'src/template/libs/jquery/dist/jquery.js',
-		'src/template/libs/jquery.maskedinput/dist/jquery.maskedinput.min.js'
+		'src/template/libs/jquery.maskedinput/dist/jquery.maskedinput.min.js',
+		'src/template/libs/slick-carousel/slick/slick.js',
+		'src/template/libs/mediaelement/build/mediaelement-and-player.js'
 		])
 		.pipe(concat('libs.js')) 
 		.pipe(gulp.dest('src/template/scripts')); 
@@ -92,7 +94,7 @@ gulp.task('ftp', function() {
 		.pipe(rsync({
 			root: 'src/',
 			hostname: 'e5ashb4k_io@e5ashb4k.beget.tech',
-			destination: 'fl/layout/site-',
+			destination: 'fl/layout/logoritmika',
 			archive: true,
 			silent: false,
 			compress: true

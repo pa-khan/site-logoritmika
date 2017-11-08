@@ -1,0 +1,107 @@
+.icon-arrow-left {
+  background-image: url(../../img/sprite.png);
+  background-position: -294px -133px;
+  width: 12px;
+  height: 17px; }
+
+.icon-arrow-right {
+  background-image: url(../../img/sprite.png);
+  background-position: -387px -94px;
+  width: 12px;
+  height: 17px; }
+
+.icon-audio {
+  background-image: url(../../img/sprite.png);
+  background-position: -341px -94px;
+  width: 25px;
+  height: 21px; }
+
+.icon-books {
+  background-image: url(../../img/sprite.png);
+  background-position: -294px 0px;
+  width: 112px;
+  height: 94px; }
+
+.icon-check-blue {
+  background-image: url(../../img/sprite.png);
+  background-position: -306px -133px;
+  width: 15px;
+  height: 11px; }
+
+.icon-check-green {
+  background-image: url(../../img/sprite.png);
+  background-position: -391px -115px;
+  width: 15px;
+  height: 11px; }
+
+.icon-check-orange {
+  background-image: url(../../img/sprite.png);
+  background-position: -376px -115px;
+  width: 15px;
+  height: 11px; }
+
+.icon-check-pink {
+  background-image: url(../../img/sprite.png);
+  background-position: -361px -115px;
+  width: 15px;
+  height: 11px; }
+
+.icon-class {
+  background-image: url(../../img/sprite.png);
+  background-position: 0px 0px;
+  width: 161px;
+  height: 140px; }
+
+.icon-email {
+  background-image: url(../../img/sprite.png);
+  background-position: -341px -115px;
+  width: 20px;
+  height: 16px; }
+
+.icon-logoritmika {
+  background-image: url(../../img/sprite.png);
+  background-position: -110px -140px;
+  width: 125px;
+  height: 94px; }
+
+.icon-lullabies {
+  background-image: url(../../img/sprite.png);
+  background-position: -161px 0px;
+  width: 133px;
+  height: 96px; }
+
+.icon-phone {
+  background-image: url(../../img/sprite.png);
+  background-position: -366px -94px;
+  width: 21px;
+  height: 21px; }
+
+.icon-play {
+  background-image: url(../../img/sprite.png);
+  background-position: 0px -140px;
+  width: 110px;
+  height: 110px; }
+
+.icon-signature {
+  background-image: url(../../img/sprite.png);
+  background-position: -294px -94px;
+  width: 47px;
+  height: 39px; }
+
+.icon-triangle-orange {
+  background-image: url(../../img/sprite.png);
+  background-position: -321px -133px;
+  width: 11px;
+  height: 7px; }
+
+.icon-triangle-purple {
+  background-image: url(../../img/sprite.png);
+  background-position: -332px -133px;
+  width: 11px;
+  height: 7px; }
+
+.icon-volume {
+  background-image: url(../../img/sprite.png);
+  background-position: -294px -150px;
+  width: 8px;
+  height: 16px; }
