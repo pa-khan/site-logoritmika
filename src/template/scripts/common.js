@@ -39,4 +39,15 @@ $(document).ready(function($) {
 		shimScriptAccess: 'always'
 		// more configuration
 	});
+
+	$('.products__button, .products__close').click(function(event) {
+		var audioBlock = $(this).parents('.products__item').find('.products__hidden');
+
+		audioBlock.toggle();
+	});
+
+	$('.btn-mobile').click(function(event) {
+		$(this).toggleClass('btn-mobile_close');
+		$('.nav-main').slideToggle(300);
+	});
 });

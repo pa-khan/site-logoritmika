@@ -871,6 +871,8 @@ img {
       font-weight: 400;
       font-family: "Appetite New", serif;
       margin-top: 15px; }
+  .products__item {
+    position: relative; }
   .products__title {
     text-align: center;
     font-weight: 700;
@@ -897,13 +899,48 @@ img {
     -webkit-border-radius: 3px;
             border-radius: 3px; }
   .products__hidden {
-    display: none; }
+    z-index: 10;
+    display: none;
+    position: absolute;
+    top: 0;
+    -webkit-box-shadow: 0 0 7px rgba(0, 8, 0, 0.23);
+            box-shadow: 0 0 7px rgba(0, 8, 0, 0.23);
+    border: 2px solid #d6455d;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 43px 20px 48px;
+    left: 50%;
+    margin-left: -167px;
+    -webkit-border-radius: 3px;
+            border-radius: 3px; }
+  .products__close {
+    margin-top: 30px;
+    display: inline-block;
+    color: #d6455d;
+    font-family: "Appetite New", serif;
+    font-size: 20px;
+    border-bottom: 2px solid #d6455d;
+    -webkit-transition: .3s;
+    transition: .3s;
+    cursor: pointer; }
+    .products__close:hover {
+      border-color: transparent; }
 
 .signature {
   font-style: italic;
   margin-top: -25px; }
   .signature p {
     margin-bottom: 0; }
+
+.mejs {
+  margin-bottom: 10px; }
+  .mejs__duration-container {
+    display: none; }
+  .mejs__audio {
+    width: 290px !important;
+    background: #e64b6c;
+    margin-bottom: 10px; }
+    .mejs__audio:last-of-type {
+      margin-bottom: 0; }
 
 .list p {
   margin-bottom: 0;

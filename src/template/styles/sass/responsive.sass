@@ -1,3 +1,443 @@
-// @media screen and (max-width: 1199px)
-// 	.container
-// 		width: 950px
+@media screen and (max-width: 1220px)
+	img
+		max-width: 100%
+	.container
+		width: 950px
+
+	.panel
+
+		&__nav
+			right: 15px
+			top: 20px
+			position: absolute
+			padding-top: 0
+		&__contacts
+			position: absolute
+			top: 35px
+			right: 15px
+			margin-right: 0
+		&__email
+			position: relative
+			top: 5px
+			margin-right: 15px
+		&__email, &__phone
+			display: inline-block
+			vertical-align: middle
+
+	.nav
+		padding-top: 12px
+		li
+			a
+				padding-left: 18px
+				padding-right: 18px
+				padding-bottom: 7px
+
+	.nav, .footer
+		&:before
+			width: 100%
+			margin-left: 0
+			left: 0
+		
+
+	.slider
+		&__wrap
+			margin-left: -440px
+		&__img
+			img
+				margin-left: -810px
+				max-width: none
+		.slick-dots
+			text-align: center
+			padding-left: 15px
+			width: 400px
+	.main-
+		&category
+			padding-top: 40px
+			padding-bottom: 40px
+		&about
+			padding-top: 40px
+			padding-bottom: 40px
+			&__content
+				width: 650px
+		&videos
+			&__item
+				width: 400px
+		&types
+			padding-top: 40px
+			padding-bottom: 40px
+			&__title
+				display: block
+				text-align: center
+			&__icon
+				padding-top: 0
+				line-height: 140px
+				i
+					vertical-align: middle
+			&__text
+				margin-left: 0
+				width: 100%
+				
+
+	.articles
+		&__item
+			width: 315px
+
+	.about
+		padding-top: 20px
+		padding-bottom: 20px
+		padding-left: 15px
+		padding-right: 15px
+		&__img, &__content
+			float: none
+			width: 100%
+		&__img
+			img
+				margin-left: auto
+				margin-right: auto
+		&__content
+			padding-top: 0
+			
+	.nav-page
+		margin-bottom: 20px
+		li
+			font-size: 0
+			margin-bottom: 10px
+		a
+			padding-right: 20px
+			padding-left: 20px
+
+	.block
+		margin-top: 30px
+
+	.feedback-form
+		&__wrap
+			width: 100%
+
+	.products-seven
+		margin-bottom: 0
+		.products
+			&__item
+				width: 300px
+
+	.videos
+		&__item
+			padding-left: 10px
+			padding-right: 10px
+			margin-bottom: 10px
+		iframe
+			width: 100%
+			height: 240px
+
+@media screen and (max-width: 967px)
+	.container
+		width: 100%
+
+	.panel
+		text-align: center
+		padding-bottom: 10px
+		&__logo, &__nav, &__contacts
+			position: relative
+			float: none
+			margin-left: auto
+			margin-right: auto
+			width: 280px
+			top: 0
+			right: 0
+			margin-bottom: 10px
+		&__logo
+			width: 320px
+		&__nav
+			margin-bottom: 0
+			li
+				display: block
+				margin-bottom: 5px
+				&:after
+					display: none
+		&__contacts
+			padding-top: 0
+		&__email
+			margin-bottom: 15px
+
+	.nav
+		position: relative
+		padding-bottom: 15px
+		background: #c43e5f
+		.nav-main
+			display: none
+		ul
+			position: absolute
+			top: 100%
+			left: 0
+			width: 100%
+			background: white
+			text-align: left
+			padding: 10px 0 15px
+			border-bottom: 5px solid #c43e5f
+			li
+				display: block
+
+			ul
+				display: block
+				position: static
+				box-shadow: none
+				padding: 5px 20px 20px
+				border-top: none
+				border-bottom: none
+				li
+					margin-bottom: 5px
+
+		.container
+			position: static
+	
+	.btn-mobile
+		display: block
+		position: relative
+		margin-left: auto
+		cursor: pointer
+		width: 40px
+		height: 29px
+		span
+			position: relative
+			display: block
+			width: 40px
+			height: 5px
+			background: white
+			margin-bottom: 7px
+			transition: .3s
+		&_close
+			span
+				&:nth-of-type(1)
+					top: 12px
+					transform: rotate(-45deg)
+				&:nth-of-type(2)
+					opacity: 0
+				&:nth-of-type(3)
+					top: -12px
+					transform: rotate(45deg)
+	.slider
+		&__wrap
+			z-index: 2
+			left: 0
+			margin-left: 0
+			width: 100%
+			padding-left: 15px
+			padding-right: 15px
+		&__img
+			overflow: hidden
+			height: 380px
+			&:before
+				z-index: 1
+				content: ''
+				position: absolute
+				width: 100%
+				height: 100%
+				top: 0
+				left: 0
+				background: rgba(0,0,0,.4)
+		&__title
+			text-align: center
+			margin-bottom: -5px
+		&__text
+			text-align: center
+		&__text, &__button
+			margin-top: 20px
+			margin-left: auto
+			margin-right: auto
+	.main-
+		&category
+			padding-top: 20px
+			padding-bottom: 10px
+			&__item
+				margin-left: 10px
+				margin-right: 10px
+				margin-bottom: 10px
+		&about
+			padding-top: 20px
+			&__persona
+				padding-top: 0
+				margin-bottom: 20px
+			&__persona, &__content
+				float: none
+				width: 100%
+			&__content
+				margin-top: 30px
+			&__title
+				text-align: center
+		&videos
+			padding-top: 25px
+			padding-bottom: 25px
+			&__title
+				margin-bottom: 20px
+			&__link
+				margin-top: 0
+
+		&articles
+			padding-top: 25px
+			&__title
+				margin-bottom: 20px
+			&__item
+				display: none
+	.products
+		&__item
+			width: 100% !important
+			margin-bottom: 30px !important
+			&:last-of-type
+				margin-bottom: 0
+	.footer
+		text-align: center
+		padding-bottom: 20px
+		&__copy, &__nav, &__contacts
+			float: none
+			width: 280px
+			margin-left: auto
+			margin-right: auto
+		&__copy
+			padding-top: 15px
+			margin-bottom: 10px
+		&__email
+			margin-bottom: 15px
+		&__nav
+			display: none
+	.breadcrumbs
+		padding-bottom: 40px
+	.title-img
+		margin-bottom: 40px
+		&__img
+			display: none
+		&__middle
+			float: none
+			width: 100%
+			padding-top: 0
+		&__desc
+			margin-top: 20px !important
+	.page
+		&__title
+			margin-bottom: 30px
+
+	.page-imgs
+		display: none
+
+	.main
+		min-height: 600px
+		.container
+			overflow: hidden
+	.projects
+		&__img
+			display: none
+		&__title
+			text-align: center
+		&__content
+			width: 100%
+			float: none
+			padding-top: 0
+@media screen and (max-width: 730px)
+	.main-types
+		&__item
+			width: 100%
+			margin-bottom: 30px
+			padding-left: 0
+			padding-right: 0
+			&:last-of-type
+				margin-bottom: 0
+		&__title
+			margin-bottom: 10px
+		&__icon
+			line-height: normal
+			margin-bottom: 10px
+
+	.feedback-form
+		padding-right: 10px
+		&__left, &__right
+			width: 100%
+			padding-left: 0
+			padding-right: 0
+		&__left
+			margin-bottom: 12px
+		&__captcha
+			margin-left: -15px
+			margin-right: -15px
+			width: calc(100% + 30px)
+			text-align: center
+			.g-recaptcha
+				margin-left: auto
+				margin-right: auto
+				> div
+					margin-left: auto
+					margin-right: auto
+	.videos
+		&__item
+			width: 100%
+		iframe
+@media screen and (max-width: 550px)
+	.title
+		font-size: 32px
+	.img
+		float: none
+		margin-left: 0
+		margin-right: 0
+		img
+			margin-left: auto
+			margin-right: auto
+			margin-bottom: 5px
+@media screen and (max-width: 450px)
+	.main-
+		&videos
+			&__list
+				margin-left: 0
+				margin-right: 0
+			&__item
+				margin-left: 0
+				margin-right: 0
+				width: 100%
+				margin-bottom: 10px
+
+@media screen and (max-width: 430px)
+	.main-
+		&category
+			padding-top: 0
+			padding-bottom: 0
+			.container
+				padding-left: 0
+				padding-right: 0
+			&__item
+				display: block
+				margin-left: 0
+				margin-right: 0
+				width: 100%
+				border-radius: 0
+				margin-bottom: 0
+				&:before
+					display: none
+		
+@media screen and (max-width: 410px)
+	.slider
+		&__wrap
+			padding-top: 30px
+		&__img
+			height: 437px
+		.slick-dots
+			width: 100%
+	.videos
+		&__item
+			padding-left: 0
+			padding-right: 0
+			iframe
+				height: 200px
+@media screen and (max-width: 370px)
+	.panel
+		.container
+			padding-left: 0
+			padding-right: 0
+		&__logo
+			img
+				margin-left: -15px
+
+	.articles
+		&__list
+			margin-left: 0
+			margin-right: 0
+		&__item
+			padding-left: 0
+			padding-right: 0
+			margin-bottom: 30px
+			width: 100%

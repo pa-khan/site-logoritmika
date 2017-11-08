@@ -765,6 +765,8 @@ img
 				font-weight: 400
 				font-family: $font-family-2
 				margin-top: 15px
+	&__item
+		position: relative
 	&__title
 		text-align: center
 		font-weight: 700
@@ -791,7 +793,31 @@ img
 		border-radius: 3px
 		
 	&__hidden
+		z-index: 10
 		display: none
+		position: absolute
+		top: 0
+		box-shadow: 0 0 7px rgba(0, 8, 0, 0.23)
+		border: 2px solid #d6455d
+		background: rgba(255,255,255,.9)
+		padding: 43px 20px 48px
+		left: 50%
+		margin-left: -167px
+		border-radius: 3px
+	&__audio
+
+	&__close
+		margin-top: 30px
+		display: inline-block
+		color: #d6455d
+		font-family: $font-family-2
+		font-size: 20px
+		border-bottom: 2px solid #d6455d
+		transition: .3s
+		cursor: pointer
+		&:hover
+			border-color: transparent
+
 
 .signature
 	font-style: italic
@@ -799,6 +825,16 @@ img
 	p
 		margin-bottom: 0
 
+.mejs
+	margin-bottom: 10px
+	&__duration-container
+		display: none
+	&__audio
+		width: 290px !important
+		background: #e64b6c
+		margin-bottom: 10px
+		&:last-of-type
+			margin-bottom: 0
 
 .list
 	p
